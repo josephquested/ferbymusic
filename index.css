@@ -11,3 +11,51 @@ body {
 	background-size: 105%;
 	margin: 0;
 }
+
+/* APP IDS */
+
+#app-window {
+    display: none;
+}
+
+/* POSITIONING CLASSES */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.center {
+	position: absolute;
+	left: 48%;
+	top: 42%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	z-index: 1;
+}
+
+.top-right {
+	position: absolute;
+	left: 70%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+
+/* SMALL SCREEN STUFF */
+
+@media only screen and (max-width: 900px) {
+	img {
+		max-width: 55%;
+	}
+
+	.top-right {
+		position: absolute;
+		left: 75%;
+		top: 108%;
+		width: 80%;
+		transform: translate(-50%, -50%);
+		padding: 10px;
+		z-index: 1;
+	}
+}
