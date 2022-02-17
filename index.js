@@ -1,0 +1,1 @@
+console.log("welcome to ferby's website!")

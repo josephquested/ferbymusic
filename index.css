@@ -1,0 +1,13 @@
+/* @font-face {
+    font-family: "ancient";
+    src: url("./fonts/ancient.ttf");
+} */
+
+body {
+	text-align: center;
+	background-color: white;
+	background-image: url("./images/desktop.jpg");
+	background-position: 100% 115%;
+	background-size: 105%;
+	margin: 0;
+}
